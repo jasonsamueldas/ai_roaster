@@ -1,10 +1,10 @@
-# 🔥 Roastify Me
+# Roastify Me
 
 Welcome to **Roastify Me** — a playful and sassy Streamlit web app that dishes out roasts or compliments based on your mood or text input. Whether you're feeling fabulous or need a little love, this app’s got your vibe covered!
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Roast or Compliment Mode**: Flip between sass and sweetness.
 - **Mood Slider**: Adjust your mood to change the tone.
@@ -16,20 +16,14 @@ Welcome to **Roastify Me** — a playful and sassy Streamlit web app that dishes
 
 ---
 
-## 📸 Demo
+## Installation
 
-![Roastify Demo](https://media.giphy.com/media/xT0xeuOy2Fcl9vDGiA/giphy.gif)
-
----
-
-## 📦 Installation
-
-### 🔧 Prerequisites
+### Prerequisites
 
 - Python 3.8+
 - `pip` (Python package manager)
 
-### 🧪 Clone & Run
+### Clone & Run
 
 ```bash
 git clone https://github.com/yourusername/roastify-me.git
@@ -40,7 +34,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - **Sentiment Analysis** using `TextBlob` detects tone from user input.
 - Roasts are chosen from a curated roast bank (positive, neutral, or negative).
@@ -49,10 +43,10 @@ streamlit run app.py
 
 ---
 
-## 🗂️ Project Structure
+## 🗂Project Structure
 
 ```
-📦 roastify-me
+roastify-me
 ├── app.py                  # Streamlit app
 ├── roast_engine.py         # Roast logic based on sentiment
 ├── compliment_engine.py    # Compliment generator
@@ -65,31 +59,10 @@ streamlit run app.py
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 ```txt
 streamlit
 textblob
 gTTS
 ```
-
----
-
-## ❤️ Credits
-
-- 👸 App by **Srusti the Savage**
-- ✨ Voice via **gTTS**
-- 🔍 Sentiment analysis via **TextBlob**
-- 🎨 GIPHY magic for visuals
-
----
-
-## 📄 License
-
-MIT License. Use it, fork it, sass it — just give credit.
-
----
-
-## 📬 Feedback
-
-PRs and issues welcome! If you laughed (or cried), let us know.
