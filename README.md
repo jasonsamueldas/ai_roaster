@@ -43,7 +43,7 @@ streamlit run app.py
 
 ---
 
-## 🗂Project Structure
+## Project Structure
 
 ```
 roastify-me
